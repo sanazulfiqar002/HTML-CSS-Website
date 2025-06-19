@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Vehari</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-image: url('images/background.jpg'); /* Add full file name here */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* darkens background for readability */
+  z-index: 0;
+}
+
+    header h1,
+    header p {
+      position: relative;
+      z-index: 1;
+      text-align: justify;
+      text-align: center;
+      max-width: 900px;
+      margin: 40px auto;
+      line-height: 1.5;
+    }
+
+    nav {
+      background-color: #004F4D;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #1F2024;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery .images {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      margin-top: 40px;
+    }
+    .gallery {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Vehari</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="about">
+    <section class="about" id="about">
+  <h2>About Vehari</h2>
+  <p>
+    Vehari is a historic and agriculturally rich city located in the southern part of Punjab, Pakistan.
+    It serves as the administrative center of Vehari District and is well-connected to other cities like Multan and Bahawalpur via road and rail.
+  </p>
+
+  <p>
+    The city's name is believed to be derived from the Sanskrit word "Vehar," meaning a place of residence or settlement.
+    Over the years, Vehari has evolved from a small village into a thriving city known for its economic, cultural, and educational significance.
+  </p>
+
+  <p>
+    Vehari is a major hub for the cotton industry and is often referred to as the <strong>“City of Cotton.”</strong>
+    Along with <strong>sugarcane, wheat</strong>  and <strong>rice</strong> are also widely cultivated, making agriculture the backbone of its economy.
+    The district is supported by an extensive canal system originating from the Sutlej River, which helps irrigate its fertile land.
+  </p>
+
+  <p>
+    In addition to its economic strengths, Vehari is home to several educational institutions such as COMSATS University Vehari Campus,
+    Bahauddin Zakariya University (BZU) Sub-Campus, and multiple public and private schools. These institutions are shaping the future of the region's youth.
+  </p>
+
+  <p>
+    The local culture is deeply rooted in Punjabi traditions, with colorful festivals, hospitality, and a strong sense of community.
+    The people of Vehari are known for their warmth, simplicity, and strong work ethic.
+  </p>
+
+  <p>
+    Whether you're visiting for business, education, or tourism, Vehari welcomes you with open arms and offers a unique blend of tradition, progress, and natural beauty.
+  </p>
+</section>
+
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="images">
+      <img src="images/paul-engel-uF04h0G26RA-unsplash.jpg" alt="Vehari">
+      <img src="images/cotton2.jpg" alt="cotton">
+      <img src="images/cotton1.jpg" alt="cotton">
+       <img src="images/wheat4.jpg" alt="wheat">
+        <img src="images/wheat3.jpg" alt="wheat">
+            <img src="images/sugarcane5.jpg" alt="sugarcane">
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>For more information, contact the Vehari office at: <strong>01234-567890</strong></p>
+    <p>Email: <strong>vehari@example.com</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vehari. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
